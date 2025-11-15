@@ -32,3 +32,20 @@
 /* Full-width section */
 .blank-preview { width: 100%; margin: 0; padding: 3rem 0; }
 .blank-preview .container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
+
+
+/* Component styles from page: /about */
+
+
+        .blank-text-para { padding: 4rem 1.5rem; background: var(--background-color); font-family: var(--font-family); }
+        .text-placeholder { width: 100%; }
+        .text-lines { display: flex; flex-direction: column; gap: 1.5rem; }
+        .line { background: linear-gradient(135deg, #ef4444 0%, #f97316 100%); border-radius: 6px; }
+        .line.long { width: 100%; }
+        .line.medium { width: 75%; }
+        .line.short { width: 50%; }
+      
+
+/* Full-width section */
+.blank-preview { width: 100%; margin: 0; padding: 3rem 0; }
+.blank-preview .container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
