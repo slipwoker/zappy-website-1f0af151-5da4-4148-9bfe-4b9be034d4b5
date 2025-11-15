@@ -3,12 +3,15 @@
 /* Component styles from page: /about */
 
 
-        .logos-grid { padding: 3rem 1.5rem; background: var(--background-color); font-family: var(--font-family); }
-        .logos-grid h3 { font-size: 1.2rem; font-weight: 600; color: var(--text-color); margin: 0 0 1.5rem 0; text-align: center; }
-        .logos-container { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
-        .logo-box { aspect-ratio: 16/9; background: #f3f4f6; border: 1px solid #e5e7eb; border-radius: var(--border-radius); display: flex; align-items: center; justify-content: center; }
+        .blank-text-para { padding: 4rem 1.5rem; background: var(--background-color); font-family: var(--font-family); }
+        .text-placeholder { width: 100%; }
+        .text-lines { display: flex; flex-direction: column; gap: 1.5rem; }
+        .line { background: linear-gradient(135deg, #ef4444 0%, #f97316 100%); border-radius: 6px; }
+        .line.long { width: 100%; }
+        .line.medium { width: 75%; }
+        .line.short { width: 50%; }
       
 
 /* Full-width section */
-.logos-preview { width: 100%; margin: 0; padding: 3rem 0; }
-.logos-preview .container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
+.blank-preview { width: 100%; margin: 0; padding: 3rem 0; }
+.blank-preview .container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
