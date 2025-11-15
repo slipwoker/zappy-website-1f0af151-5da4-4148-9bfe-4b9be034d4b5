@@ -82,3 +82,18 @@
 /* Full-width section */
 .blank-preview { width: 100%; margin: 0; padding: 3rem 0; }
 .blank-preview .container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
+
+
+/* Component styles from page: /about */
+
+
+        .stats-bar { background: var(--primary-color); font-family: var(--font-family); display: flex; align-items: center; justify-content: center; }
+        .stats-container { display: flex; gap: 2rem; }
+        .stat-item { text-align: center; }
+        .stat-number { font-size: 1.8rem; font-weight: 700; color: white; margin-bottom: 0.25rem; }
+        .stat-label { font-size: 1rem; color: rgba(255,255,255,0.9); }
+      
+
+/* Full-width section */
+.stats-preview { width: 100%; margin: 0; padding: 3rem 0; }
+.stats-preview .container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
