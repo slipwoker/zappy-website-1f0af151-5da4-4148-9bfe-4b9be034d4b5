@@ -66,3 +66,19 @@
 /* Full-width section */
 .blank-preview { width: 100%; margin: 0; padding: 3rem 0; }
 .blank-preview .container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
+
+
+/* Component styles from page: /about */
+
+
+        .blank-ti-side { padding: 3rem 1.5rem; background: var(--background-color); font-family: var(--font-family); }
+        .side-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; height: 100%; }
+        .text-side { display: flex; flex-direction: column; gap: 1.5rem; justify-content: center; }
+        .text-line { background: linear-gradient(135deg, #ef4444 0%, #f97316 100%); border-radius: 6px; }
+        .text-line.short { width: 70%; }
+        .image-side { background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%); border: 2px solid var(--primary-color); border-radius: var(--border-radius); }
+      
+
+/* Full-width section */
+.blank-preview { width: 100%; margin: 0; padding: 3rem 0; }
+.blank-preview .container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
